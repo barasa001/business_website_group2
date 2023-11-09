@@ -9,7 +9,6 @@ header {
     padding: 0 20px;
 }
 
-
 .navbar-nav li a {
     color: #000;
     font-weight: bold;
@@ -23,7 +22,7 @@ header {
 .navbar-nav .last a {
     margin-right: 0;
 }
-/* Add styling for the footer */
+
 footer {
     background-color: #AB7B57;
     color: white;
@@ -34,7 +33,12 @@ footer .col-md-2 {
     padding: 15px;
 }
 
-/* Add spacing to the unordered lists */
+/* Spacing to the unordered lists */
 footer ul {
     padding-left: 20px;
+}
+
+/* Background color for the container inside the header section */
+.label-custom {
+    background-color: #F7FFE0;
 }
