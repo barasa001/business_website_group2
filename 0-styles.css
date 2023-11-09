@@ -1,0 +1,18 @@
+/* 0-styles.css */
+
+/* Apply background color to the header */
+header {
+    background-color: #FBFAEE;
+}
+
+/* Center text in the navigation bar */
+nav ul {
+    text-align: center;
+}
+
+/* Make the text headings bold and add spacing between them */
+nav ul li a {
+    color: #000;
+    font-weight: bold;
+    margin: 0 20px; /* Adjust the spacing as needed */
+}
