@@ -1,18 +1,40 @@
-/* 0-styles.css */
-
-/* Apply background color to the header */
 header {
     background-color: #FBFAEE;
 }
 
-/* Center text in the navigation bar */
-nav ul {
-    text-align: center;
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-/* Make the text headings bold and add spacing between them */
-nav ul li a {
+
+.navbar-nav li a {
     color: #000;
     font-weight: bold;
-    margin: 0 20px; /* Adjust the spacing as needed */
+    margin: 0 30px;
+}
+
+.navbar-nav .first a {
+    margin-left: 0;
+}
+
+.navbar-nav .last a {
+    margin-right: 0;
+}
+/* Add styling for the footer */
+footer {
+    background-color: #AB7B57;
+    color: white;
+}
+
+footer .col-md-2 {
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Add spacing to the unordered lists */
+footer ul {
+    padding-left: 20px;
 }
