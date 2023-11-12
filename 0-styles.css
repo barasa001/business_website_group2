@@ -43,10 +43,13 @@ footer ul {
     background-color: #F7FFE0;
 }
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5dc; /* Khaki background color */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 
   .product-container {
@@ -119,3 +122,108 @@ footer ul {
     background-color: #8b4513; /* Saddle Brown color */
   }
 
+    .product-container,
+    .cart-container {
+      max-width: 600px;
+      margin: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    .product,
+    .cart-item {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .product:hover,
+    .cart-item:hover {
+      transform: scale(1.05);
+    }
+
+    .product-details,
+    .cart-item-details {
+      display: flex;
+      align-items: center;
+    }
+
+    .product-name,
+    .cart-item-name {
+      font-size: 18px;
+      margin-right: 10px;
+      color: #333;
+    }
+
+    .product-price,
+    .cart-item-price {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .add-to-cart-btn {
+      background-color: #d2691e; /* Darker Orange color */
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .add-to-cart-btn:hover {
+      background-color: #a35704; /* Slightly darker Orange color on hover */
+    }
+
+    .cart-item-quantity,
+    .remove-item-btn {
+      font-size: 14px;
+      color: #555;
+      margin-right: 5px;
+    }
+
+    .remove-item-btn {
+      background-color: #dc3545; /* Red color */
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 12px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .remove-item-btn:hover {
+      background-color: #b02a37; /* Slightly darker Red color on hover */
+    }
+
+    .cart-total {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Add a fade effect to the cart items */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .fadeIn {
+      animation: fadeIn 0.5s ease-in-out;
+    }

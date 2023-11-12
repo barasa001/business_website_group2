@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="0-styles.css">
+    <title>Shop</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Icons/logo-1.png" alt="Logo" width="40" height="40">
+                </a>
+
+                <!-- Toggle button for small screens -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="Icons/Menu.png" alt="Menu" width="20" height="20">
+                </button>
+
+                <!-- Navigation links (collapsed on small screens) -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NewBorn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="boyscloths.html">Boys</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="girlscloths.html">Girls</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Arrivals</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">
+                                <img src="Icons/User-1.png" alt="User" width="20" height="20">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="Icons/Bag_alt.png" alt="Bag" width="20" height="20">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="Icons/Search.png" alt="Search" width="20" height="20">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="product-container">
+            <h2>Product Catalog</h2>
+        
+            <div class="product" id="product1">
+              <div class="product-details">
+                <div class="product-name">Product 1</div>
+                <div class="product-price">$19.99</div>
+              </div>
+              <button class="add-to-cart-btn" onclick="addToCart(1)">Add to Cart</button>
+            </div>
+        </div>
+            <div class="cart-container">
+                <h2>Your Shopping Cart</h2>
+            
+                <div id="cart-items" class="fadeIn"></div>
+            
+                <div class="cart-total">Total: $<span id="cart-total">0.00</span></div>
+              </div>
+        
+            <div class="product" id="product2">
+              <div class="product-details">
+                <div class="product-name">Product 2</div>
+                <div class="product-price">$24.99</div>
+              </div>
+              <button class="add-to-cart-btn" onclick="
+
+        <section id="feature" class:"section-p1">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="position-relative">
+                            <img src="Images/cloth-2.png" alt="Cloth 2" style="width: 100%;">
+                            <img src="Images/lbl1.png" alt="Label 1" class="label-custom">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="position-relative">
+                            <img src="Images/cloth-3.png" alt "Cloth 3" style="width: 100%;">
+                            <img src="Images/lbl2.png" alt="Label 2" class="label-custom">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="position-relative">
+                            <img src="Images/cloth-4.png" alt="Cloth 4" style="width: 100%;">
+                            <img src="Images/lbl3.png" alt="Label 3" class="label-custom">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="position-relative">
+                            <img src="Images/cloth-5.png" alt="Cloth 5" style="width: 100%;">
+                            <img src="Images/lbl4.png" alt="Label 4" class="label-custom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="container label-custom">
+                            <div class="text-center">
+                                <img src="Images/cloth-6.png" alt="Cloth 6" style="width: 100%;">
+                            </div>
+                            <p class="text-left" style="font-weight: bold;">Matching Bear Romper</p>
+                            <p class="text-right">9,900 rwf</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="container label-custom">
+                            <div class="text-center">
+                                <img src="Images/cloth-7.png" alt="Cloth 7" style="width: 100%;">
+                            </div>
+                            <p class="text-left" style="font-weight: bold;">Yellow Casual  Set</p>
+                            <p class="text-right">14,800 rwf</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="container label-custom">
+                            <div class="text-center">
+                                <img src="Images/cloth-8.png" alt="Cloth 8" style="width: 100%;">
+                            </div>
+                            <p class="text-left" style="font-weight: bold;">Baby Blue Set</p>
+                            <p class="text-right">9,400 rwf</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        </main>
+        
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-top" style="background-color: #AB7B57; color: white; padding: 15px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <p class="font-weight-bold">About</p>
+                            <p>We believe in kid’s confidence.</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="font-weight-bold">Information</p>
+                            <ul>
+                                <li>About us</li>
+                                <li>Shipping & Delivery</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="font-weight-bold">Account</p>
+                            <ul>
+                                <li>My Account</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="font-weight-bold">Contact</p>
+                            <ul>
+                                <li>Address, Road</li>
+                                <li>Email</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="font-weight-bold">Review</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom bg-dark text-light py-2">
+                <p class="text-center font-weight-bold">Copyright</p>
+            </div>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    
+    </main>
