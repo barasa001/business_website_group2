@@ -119,8 +119,3 @@ footer ul {
     background-color: #8b4513; /* Saddle Brown color */
   }
 
-  /* Heart shape for the wishlist button */
-  .add-to-wishlist-btn::before {
-    content: '\2665'; /* Unicode heart symbol */
-    margin-right: 5px;
-  }
