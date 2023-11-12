@@ -42,3 +42,85 @@ footer ul {
 .label-custom {
     background-color: #F7FFE0;
 }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Khaki background color */
+  }
+
+  .product-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure content doesn't overflow the container */
+  }
+
+  .product-details {
+    overflow: hidden;
+  }
+
+  .product-image {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .product-info {
+    float: left;
+    max-width: calc(100% - 180px); /* Adjusted width to make space for buttons */
+  }
+
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+  }
+
+  .product-price {
+    font-size: 16px;
+    color: #555; /* Slightly darker text color */
+    margin-bottom: 10px;
+  }
+
+  .select-box {
+    margin-bottom: 10px;
+  }
+
+  /* Style for transparent select boxes and input */
+  select, input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #555; /* Text color */
+  }
+
+  .add-to-cart-btn,
+  .add-to-wishlist-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .add-to-cart-btn {
+    background-color: #d2691e; /* Darker Orange color */
+  }
+
+  .add-to-wishlist-btn {
+    background-color: #8b4513; /* Saddle Brown color */
+  }
+
+  /* Heart shape for the wishlist button */
+  .add-to-wishlist-btn::before {
+    content: '\2665'; /* Unicode heart symbol */
+    margin-right: 5px;
+  }
