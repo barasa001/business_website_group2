@@ -32,6 +32,8 @@ Submit a URL of your GitHub repository
 
  **Home Heading:** Takes you back to the first page.
 
+ **Item.html** and **cart.html** are independent files. They are linked to the other files but the other files are not linked to them. This means that you can navigate from them to the sections mentioned above but you cannot navigate to the two files from the other pages.
+
  ## Authors :black_nib:
 * **Seth Barasa**
 * **Kenzo Niragire**
